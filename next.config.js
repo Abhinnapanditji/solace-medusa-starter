@@ -27,6 +27,10 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+      {
+        protocol: 'https',
         hostname: process.env.NEXT_PUBLIC_SPACE_DOMAIN,
       },
       {
